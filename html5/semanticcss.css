@@ -1,0 +1,12 @@
+header{
+    color: blue;
+}
+nav ul{
+    list-style: none;
+}
+nav{
+    color: aqua;
+}
+figcaption{
+    float: right;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    img{
+        width: 140pt;
+        height: 90pt;
+    }
+
+    input[value="hide"]:checked~img[alt='img']{
+        display:none;
+    }
+    </style>
+</head>
+<body>
+    <h1>Advance Selector</h1>
+    <input type="radio" Name="toggle" value="hide">hide
+    <input type="radio" Name="toggle" value="show">show
+    <hr>
+    <img src="../html5/_MG_1588.JPG" alt="img">
+</body>
+</html>
