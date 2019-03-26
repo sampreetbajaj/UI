@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    div{
+        border: 2px solid red;
+    }
+    img{
+        animation-name: anim1;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-duration: alternate;
+    }
+    @keyframes anim1{
+        from{
+            transform: translateX(0px);}
+        to{transform: translatex(1000px);}
+    }
+    div:hover img {
+        animation-play-state: paused;
+    }    
+    </style>
+</head>
+<body>
+    <h1>Animation Basics</h1>
+    <div>
+        <img src="../transformatiion/tenor.gif" alt="">
+    </div>
+</body>
+</html>

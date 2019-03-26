@@ -1,0 +1,44 @@
+#sun{
+    background-image: url("https://thumbs.gfycat.com/WatchfulGiganticCassowary-max-1mb.gif");
+    height: 200px;
+    width: 200px;
+    margin: 205px auto 0px;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 43%;
+}
+#earth{
+    background-image: url(https://i0.wp.com/castlerockwatercompany.com/wp-content/uploads/2016/04/Earth.png);
+    height: 100px;
+    width: 600px;
+    position: absolute;
+    left: 28%;
+    top: 40%;
+    background-size: auto  100%;
+    background-repeat: no-repeat;
+    animation: earth 5s infinite linear;
+
+}
+@keyframes earth {
+    0% {
+        transform: translateX(0px);
+    }
+    25% {
+        transform: translateX(400px);
+    }
+    40% {
+        transform: translateX(600px);
+    }
+    51% {
+        z-index: -1;
+        transform: translateX(600px);
+    }
+    99% {
+        transform: translateX(0px);
+        z-index: -1;
+    }
+    100% {
+        transform: translateX(0px);
+        z-index: 1;
+    }
+}
