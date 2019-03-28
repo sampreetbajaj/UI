@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.row{
+    display: flex;
+}
+.justify{
+    justify-content: space-between;
+}
+#main{
+    border: 1pt solid rgb(173, 170, 170);
+    margin: 90px auto 0px;
+    width: 30%;
+    height: 450px;
+    border-radius: 10pt;
+    padding: 15px;
+
+}
+.logo img{height: 30px;
+width: 80px;}
+#footer{
+    margin: 5px auto 0px;
+    width: 30%;
+}
+#main li{
+    width: 100%;
+    padding: 0px 5px;
+    margin: 23px 0px;
+}
+.footlink a{
+    color: gray;
+    margin: 0px 4px;
+    font-size: 12px;
+}
+#lngsel{
+    border: none;
+}
+.mailbox{
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid grey;
+    
+}
+.sgnn{
+    font-size: 18pt;
+    text-align: center;
+}
+.logo{
+    text-align: center;
+}
+.cntg{
+    text-align: center;
+}
+#main li a{
+    color:  #1a73e8;
+    font-weight: 60;
+}
+.lrn p{
+    font-size: 10pt;
+    color: gray;
+    margin-bottom: 2pt;
+}
+.subut{
+    background-color: #1a73e8;
+}
+
+.sub .lstt .abcd{
+    background-color: #1a73e8;
+    margin-left: 120px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
